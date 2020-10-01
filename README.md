@@ -1,0 +1,1 @@
+# UIPasteboardFix4iOS14
