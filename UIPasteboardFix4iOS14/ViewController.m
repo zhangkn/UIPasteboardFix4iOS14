@@ -5,7 +5,6 @@
 //  Created by mac on 2020/10/1.
 /**
  
- Http:/T$AJg8c4IfW3q$打開👉绹寶👈【贵州茅台酒 茅台 飞天53度酱香型白酒收藏 500ml*1单瓶装送礼高度】
  
  
 淘口令的组成部分：数字+文字+链接的形势，再结合iOS 14提供的新API：
@@ -39,7 +38,7 @@
     
     UILabel *label1 = [[UILabel alloc] initWithFrame:CGRectMake(10, pointY, self.view.frame.size.width - 20, 60)];
     label1.textColor = [UIColor blackColor];
-    label1.text = @"929 Http:/T$AJg8c4IfW3q$打開👉绹寶👈【贵州茅台酒 茅台 飞天53度酱香型白酒收藏 500ml*1单瓶装送礼高度】";
+    label1.text = @"666 Http:/T$AJg8c4IfW3q$打開👉csdn👈【ios进阶 茅台 飞天53度酱香型白酒收藏 500ml*1单瓶装送礼高度】";
     label1.numberOfLines = 0;
     label1.adjustsFontSizeToFitWidth = YES;
     label1.tag = 1001;
@@ -124,8 +123,8 @@
         if (hasNumber && hasURL) {
             
             dispatch_async(dispatch_get_main_queue(), ^{
-                UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"温馨提示" message:[NSString stringWithFormat:@"%@\n%@", [board string], @"符合淘宝的读取标准"] preferredStyle:UIAlertControllerStyleAlert];
-                UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleCancel handler:nil];
+                UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"tip" message:[NSString stringWithFormat:@"%@\n%@", [board string], @"符合淘口令的格式"] preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"sure" style:UIAlertActionStyleCancel handler:nil];
                 [alert addAction:cancelAction];
                 [self presentViewController:alert animated:YES completion:nil];
             });
